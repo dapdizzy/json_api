@@ -29,5 +29,7 @@ defmodule JsonApi.Router do
 
     post "/shopper", ShopperController, :choose
     post "/wait_for_the_handover", HandoverController, :wait
+    post "/waiter", WaitController, :wait
+    post "/choice", ChoiceController, :choose
   end
 end
